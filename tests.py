@@ -7,7 +7,7 @@ import suggest
 class TestSuggester(unittest.TestCase):
 
     def test_none(self):
-        pass
+        self.assertEquals(1+2, 4)
 
 if __name__ == '__main__':
     unittest.main()
